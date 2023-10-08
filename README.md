@@ -17,9 +17,11 @@ The Temperature Alert Agent is a simple script designed to help you stay informe
  **OpenWeatherMap API Key:** Here i used API Key from *OpenWeatherMap , You need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/) and store it in a `.env` file as `api_key`. 
 
 api_key=your_api_key_here
+
 Python Dependencies: Install the required Python packages using pip. You can do this by running the following command in your terminal:
 
 pip install uagents requests python-dotenv
+
 Run the Agent: You can run the agent by executing the script using Python. Provide the desired location, minimum temperature, and maximum temperature when prompted.
 
 python temperature_alert_agent.py
@@ -28,8 +30,11 @@ python temperature_alert_agent.py
  When you run the script, it will prompt you to enter the following information:
 
 City or location name
+
 Minimum temperature (the lower threshold for your preferred range)
+
 Maximum temperature (the upper threshold for your preferred range)
+
 The agent will fetch the current temperature for the specified location using the OpenWeatherMap API.
 
 It will then compare the current temperature to your defined temperature range.
