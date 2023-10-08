@@ -1,6 +1,6 @@
 # TEMPERATURE_ALERT_AGENTS
 The Temperature Alert Agent is a Python script that monitors the current temperature in a specified location and sends an alert/notification if the temperature goes outside a user-defined range. It uses the OpenWeatherMap API to fetch temperature data and the uagents library for notifications.
-Table of Contents
+  Table of Contents
 - Overview
 - Installation
 - Usage
@@ -40,5 +40,5 @@ You will receive a desktop notification using the uagents library, but you can c
 - Contribution
   If you want to contribute to this project, feel free to fork the repository, make improvements, and submit a pull request. Make sure to follow coding standards and provide clear documentation for any changes or additions.
 
-  - License
+- License
   This project is licensed under the MIT License. See the LICENSE file for details.
